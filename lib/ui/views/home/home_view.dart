@@ -39,9 +39,12 @@ class HomeView extends StackedView<HomeViewModel> {
                     //   ),
                     // ),
                     TextRenderer(
-                        text: '',
+                        text: 'CRM Demo site',
                         style: TextRendererStyle.header1,
                         child: Text('CRM Demo')),
+                    verticalSpaceMedium,
+                    TextRenderer(child: Text('This is a paragraph'),
+                    style: TextRendererStyle.paragraph,),
                     verticalSpaceMedium,
                     LinkRenderer(
                       text: '',
